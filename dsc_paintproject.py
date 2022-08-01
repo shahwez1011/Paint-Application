@@ -69,8 +69,8 @@ btn.place(x=20,y=210)
 
 
 def paint_page(event):
-    x1,y1=(event.x+1),(event.y-1)
-    x2,y2=(event.x+1),(event.y-1)
+    x1,y1=(event.x-1),(event.y-1)
+    x2,y2=(event.x+1),(event.y+1)
     giet.create_oval(x1,y1,x2,y2,fill=color,outline=color)
 
 #def paint_area(event):
